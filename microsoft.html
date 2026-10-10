@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo{
+            width: 220px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .boxes{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            width: 150px;
+            margin: auto;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        }
+        .red{
+            background-color: rgb(243, 0, 0);
+        }
+        .green{
+            background-color: rgb(46, 158, 46);
+        }
+        .blue{
+            background-color: rgb(18, 110, 196);
+        }
+        .yellow{
+            background-color: rgb(255, 255, 2);
+        }
+        .box:hover{
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 8px 12px 18px black;
+        }
+        .h1{
+            font-family: arial,sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            margin-top: 15px;
+            text-shadow: 3px 3px 5px rgb(82, 80, 78);
+        }
+    </style>
+</head>
+<body>
+   <div class="logo">
+    <div class="boxes">
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+    </div>
+    <h1 class="h1">MICROSOFT</h1>
+   </div> 
+</body>
+</html>
